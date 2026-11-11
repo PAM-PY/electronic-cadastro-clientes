@@ -27,20 +27,17 @@ Neste projeto, desenvolvi um módulo de cadastro de clientes para a empresa fict
 
 ## 4. Organização dos arquivos
 
-```text
 electronic-cadastro-clientes/
-├── diagramas/
-│   ├── diagrama-classes.drawio
-│   └── diagrama-classes.svg
 ├── src/
 │   ├── Endereco.js
 │   ├── Pessoa.js
 │   ├── PessoaFisica.js
 │   └── PessoaJuridica.js
+├── diagrama-classes.drawio
+├── diagrama-classes.svg
 ├── index.js
 ├── package.json
 └── README.md
-```
 
 ## 5. Modelagem e orientação a objetos
 
@@ -50,7 +47,7 @@ Utilizei campos privados (`#`) no JavaScript e getters e setters para controlar 
 
 Também sobrescrevi o método `exibirDados()` nas classes derivadas. Dessa forma, a chamada ao método apresenta os dados específicos de cada tipo de cliente, aplicando polimorfismo.
 
-O diagrama está disponível em dois formatos na pasta `diagramas`: `.drawio`, para edição no diagrams.net, e `.svg`, para visualização.
+O diagrama está disponível em dois formatos na raiz do repositório: o arquivo .drawio, para edição no diagrams.net, e o arquivo .svg, para visualização.
 
 ## 6. Regras de validação
 
