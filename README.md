@@ -27,6 +27,7 @@ Neste projeto, desenvolvi um módulo de cadastro de clientes para a empresa fict
 
 ## 4. Organização dos arquivos
 
+```text
 electronic-cadastro-clientes/
 ├── src/
 │   ├── Endereco.js
@@ -38,6 +39,7 @@ electronic-cadastro-clientes/
 ├── index.js
 ├── package.json
 └── README.md
+```
 
 ## 5. Modelagem e orientação a objetos
 
